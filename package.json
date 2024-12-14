@@ -1,0 +1,49 @@
+{
+  "name": "my-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npm run start --prefix ./frontend\" \"npm run start --prefix ./backend\"",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.24.0",
+    "@react-navigation/native": "^6.1.18",
+    "@react-navigation/stack": "^6.4.1",
+    "aws-sdk": "^2.1692.0",
+    "axios": "^1.7.9",
+    "body-parser": "^1.20.3",
+    "cheerio": "^1.0.0",
+    "concurrently": "^9.1.0",
+    "cors": "^2.8.5",
+    "expo": "~52.0.18",
+    "expo-auth-session": "~6.0.1",
+    "expo-crypto": "~14.0.1",
+    "expo-dev-client": "~5.0.6",
+    "expo-secure-store": "~14.0.0",
+    "expo-status-bar": "~2.0.0",
+    "express": "^4.21.2",
+    "firebase": "^11.1.0",
+    "firebase-admin": "^13.0.1",
+    "heroku": "^10.0.0",
+    "my-app": "file:",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.11.5",
+    "react": "18.3.1",
+    "react-native": "^0.76.5",
+    "react-native-gesture-handler": "~2.20.2",
+    "react-native-html-parser": "^0.1.0",
+    "react-native-reanimated": "~3.16.1",
+    "react-native-safe-area-context": "^4.14.1",
+    "react-native-screens": "~4.1.0",
+    "react-native-vector-icons": "^10.2.0",
+    "undefined": "expo-auth-session/providers/google"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "@react-native-community/cli": "^15.1.2"
+  },
+  "private": true
+}
