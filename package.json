@@ -22,6 +22,7 @@
     "cors": "^2.8.5",
     "expo": "~52.0.18",
     "expo-auth-session": "~6.0.1",
+    "expo-constants": "~17.0.3",
     "expo-crypto": "~14.0.1",
     "expo-dev-client": "~5.0.6",
     "expo-secure-store": "~14.0.0",
@@ -43,12 +44,12 @@
     "react-native-screens": "~4.1.0",
     "react-native-vector-icons": "^10.2.0",
     "react-native-webview": "^13.12.5",
-    "undefined": "expo-auth-session/providers/google",
-    "expo-constants": "~17.0.3"
+    "undefined": "expo-auth-session/providers/google"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
-    "@react-native-community/cli": "^15.1.2"
+    "@react-native-community/cli": "^15.1.2",
+    "metro-react-native-babel-preset": "^0.77.0"
   },
   "private": true
 }
